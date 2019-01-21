@@ -1,0 +1,19 @@
+{
+    "name": "jdsf/miniforum",
+    "description": "mini forum",
+    "type": "library",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Jdsf\\MiniForum\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jdsf\\MiniForum\\MiniForumServiceProvider"
+            ]
+        }
+    }
+}

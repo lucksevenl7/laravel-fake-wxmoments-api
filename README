@@ -1,0 +1,18 @@
+# use step
+
+## step 1
+
+	将
+    ```
+	"repositories": [
+	        {
+	            "type": "vcs",
+	            "url": "git@code.aliyun.com:fade_knight/miniforum.git"
+	        }
+	]
+	```
+	添加到项目的composer.json文件中
+## step 2
+ composer require jdsf/miniforum dev-master
+## step 3
+ php artisan jdsf:miniforum:install

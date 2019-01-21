@@ -1,18 +1,18 @@
-# use step
+使用步骤
 
-## step 1
+- step 1
 
 	将
     ```
 	"repositories": [
 	        {
 	            "type": "vcs",
-	            "url": "git@code.aliyun.com:fade_knight/miniforum.git"
+	            "url": "https://github.com/lucksevenl7/laravel-fake-wxmoments-api.git"
 	        }
 	]
 	```
 	添加到项目的composer.json文件中
-## step 2
+- step 2
  composer require jdsf/miniforum dev-master
-## step 3
+- step 3
  php artisan jdsf:miniforum:install
